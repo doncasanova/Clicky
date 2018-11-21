@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Milton",
+    "image": "http://www.blogcdn.com/slideshows/images/slides/243/630/8/S2436308/slug/l/office-space-milton-1.jpg",
+    "displayed": true
+  },
+  {
+    "id": 2,
+    "name": "Peter",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjU4NTVhMTYtYjZhYy00MTA0LThkOTItMmVjMWFlZTJkNzYzXkEyXkFqcGdeQXVyNzc5NjM0NA@@._V1_.jpg",
+    "displayed": true
+  },
+  {
+    "id": 3,
+    "name": "Joanna",
+    "image": "https://m.media-amazon.com/images/M/MV5BMDcyOGYxNTktZDNjZi00NDJlLWExNDEtMWVlMjk2YTFkYjg1XkEyXkFqcGdeQXVyNzc5NjM0NA@@._V1_SX1777_CR0,0,1777,962_AL_.jpg",
+    "displayed": true
+  },
+  {
+    "id": 4,
+    "name": "Michael Bolton",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.k_akx7YxNC-HNritnEwhOQHaED&pid=15.1&P=0&w=332&h=183",
+    "displayed": true
+  },
+  {
+    "id": 5,
+    "name": "Samir",
+    "image": "https://m.media-amazon.com/images/M/MV5BNGEwMWEwMTAtMTk3Ny00NTgwLWI2NjAtZmIxYzMzYTkyYWE1XkEyXkFqcGdeQXVyNzc5NjM0NA@@._V1_.jpg",
+    "displayed": true
+  },
+  {
+    "id": 6,
+    "name": "Bill Lumbergh",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjE3NmI3OWItNzU3Ni00OGRhLWI1NzMtOTEzZjA4OWI4N2EyXkEyXkFqcGdeQXVyNzc5NjM0NA@@._V1_.jpg",
+    "displayed": true
+  },
+  {
+    "id": 7,
+    "name": "Bob Slydell",
+    "image": "https://redeyesmastertamer2.files.wordpress.com/2013/04/office-space.png",
+    "displayed": true
+  },
+  {
+    "id": 8,
+    "name": "Nina",
+    "image": "http://www.aveleyman.com/Gallery/2017/M/136487-27412-0.jpg",
+    "displayed": true
+  },
+  {
+    "id": 9,
+    "name": "Chotchkie's Waiter",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.xlyb35RzP_mySvcBVu0V6AHaFn&pid=15.1&P=0&w=228&h=174",
+    "displayed": true
+  },
+  {
+    "id": 10,
+    "name": "Lawrence",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.h_Sb6uSO1wakh2lt2RXsPQHaE8&pid=15.1&P=0&w=226&h=151",
+    "displayed": true
+  }
+]
