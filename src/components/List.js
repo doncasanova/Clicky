@@ -12,7 +12,7 @@ class ListClick extends React.Component {
     losses: 0,
     count: 0,
     clickyList,
-    clickedOn: [],
+    clickedOn: []
     
 
   };
@@ -23,31 +23,39 @@ class ListClick extends React.Component {
     // We always use the setState method to update a component's state
     this.setState({ count: this.state.count + 1 });
     let clickedOn = this.state.clickedOn;
-    let emptyArray = []
+     
     for (var i = 0; i < clickedOn.length; i++) {
       var name = clickedOn[i];
-      if (name === newItem) {
-        this.setState({ count: 0 });
-        this.setState(clickedOn = emptyArray);
-        this.setState({ losses: this.state.losses + 1 });
+        if (name === newItem) {
+           // console.log("yep " + name)
+            let emptyArray = [];
+            this.setState({ losses: this.state.losses + 1 });
+            this.setState({ count: 0 });
+           // name = "0";
+            //console.log(name, newItem);
+            this.setState({ clickedOn: emptyArray });
+            return;
+                    }
       }
-    }
 
     clickedOn.push(event.target.attributes['data-id'].value);
-    this.setState({ clickedOn: clickedOn })
+      this.setState({ clickedOn: clickedOn });
 
     // radomize clickyList on every click
     clickyList.sort(function (a, b) { return 0.5 - Math.random() });
     let youWon = this.state.count === 9
     if (youWon === true) {
       //updates wins 
+        let emptyArray2 = [];
       this.setState({ wins: this.state.wins + 1 });
       this.setState({ count: 0 });
-      this.setState(clickedOn = emptyArray);
+        this.setState({ clickedOn: emptyArray2 });
+        
+
       // localStorage.setItem(this.state.wins)
       // console.log(localStorage.getItem(wins))
     }
-  
+      
   };
   render() {
     return (
